@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DrakorKita Lite</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      min-height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0px 8px 30px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 12px;
+      color: #333;
+      font-weight: 700;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff5e62;
+      background: linear-gradient(to right, #ff9966, #ff5e62);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(to right, #ff5e62, #ff9966);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<h1>DrakorKita Lite</h1>
+
+<div class="grid">
+  
+  <div class="card">
+    <img src="my lovely liar.jpeg" alt="My Lovely Liar">
+    <div class="card-content">
+      <div class="title">My Lovely Liar</div>
+      <a href="#" class="btn">Nonton/Download</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="bussines proposal.jpeg" alt="Business Proposal">
+    <div class="card-content">
+      <div class="title">Business Proposal</div>
+      <a href="#" class="btn">Nonton/Download</a>
+    </div>
+  </div>
+
+  <!-- Kamu bisa tambahkan drama lainnya di sini -->
+
+</div>
+
+</body>
+</html>
